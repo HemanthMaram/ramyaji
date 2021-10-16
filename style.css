@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body  {
+  
+
+background-image: url('./people.jpg');
+background-size: cover;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-position: center; 
+
+
+
+
+
+}
+.container{
+   
+   display:block;
+
+}
+
+
+
+button{
+   padding: 10px;
+   font-size :30px;
+   background-color: #eee;
+   
+   border: none;
+}
+
+
+
+#giftbox{
+   
+   font-family: 'kaushan',cursive;
+   
+   
+   
+   padding: 1px;
+   font-size:50px;
+   color: aliceblue;
+   
+   /*background-image: linear-gradient(rgb(92, 197, 204),skyblue);*/
+   border: none;
+   
+}
+
+#giftbox1{
+   
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+   
+   
+   padding: 1px;
+   font-size:50px;
+   color:#fff ;
+   
+   text-align:center;
+   border: none;
+  
+   
+   
+   
+}
+#btn1{
+   border: none;
+   background-color: wheat;
+}
+
+
+ 
+
+ #clickme{
+   text-align: center;
+
+
+}
+
+ 
+
+@media only screen and (max-width: 400px) {
+   
+   
+  
+   #clickme{
+      text-align: center;
+
+
+   }
+}
+@media only screen and (min-width:800px) {
+   body{
+      margin-top: 600px;
+   }
+   #giftbox1{
+      margin-top: -600px;
+      background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+      color: #fff ;
+   }
+
+
+
+}
+
+@media only screen and (max-width: 780px) {
+   
+   
+   img{
+      width: 300px;
+   }
+   #clickme{
+      position: absolute;
+      top:40px;
+      left: 10%;
+
+   }
+}
+.foot{
+  
+   background-color:rgb(6, 98, 114);
+   background: scroll;
+   text-align: end;
+   
+   
+   
+}
+span{
+   background-color:#fff
+}
